@@ -1,4 +1,6 @@
 import About from "@/components/About";
+import Jobs from "@/components/Jobs";
+import Projects from "@/components/projetcs";
 
 export default function Home() {
   return (
@@ -26,6 +28,8 @@ export default function Home() {
       </div>
    
       <About />
+      <Jobs/>
+      <Projects />
     </main>
   
     </>
